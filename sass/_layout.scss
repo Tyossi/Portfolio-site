@@ -1,0 +1,219 @@
+.header{
+    &__container{
+        height: 96vh;
+        background-image: radial-gradient(56% 78% at 50% 0%, var(--secondary-color) 0%, rgba(0, 0, 0, 0) 100%); 
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;   
+        
+        @media only screen and (max-width: $bp-small){
+            max-width: 100%;  
+        }
+        @media only screen and (max-width: 25.88rem){
+            height: 75vh;  
+        }
+    }    
+  
+  
+}
+
+.portfolio__page-header{
+    height: 70vh;
+}
+
+.contact__page-header{
+    height: 70vh;
+    width: 100%;
+}
+    
+   
+  
+.nav{  
+    
+    display: flex;   
+    &__icon-container {
+        flex: 1;
+    }
+
+    &__links-container {
+        flex: 1;
+    }
+}
+
+
+.text-box{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex: 1;     
+    margin-top: 3rem;
+
+    @media only screen and(max-width: $bp-small){
+        flex-direction: column;
+        justify-content: center;  
+    }
+    
+    &__main{ 
+        font-size: 4.3rem;
+        margin-bottom: 14rem;
+        padding-left: 2rem;
+        text-align: center;  
+        flex: 0 0 50%;   
+        text-shadow: 2px 2px #ff0000;
+      
+          
+        @media only screen and(max-width: $bp-large){
+            font-size: 3rem;
+        }  
+  
+        @media only screen and(max-width:$bp-medium){
+            font-size: 2.5rem;
+        }    
+
+        @media only screen and(max-width: $bp-small){
+           margin-bottom: 0;
+           flex: 0 38%;  
+        }
+
+        &__primary {
+              animation: moveInLeft 1.7s ease-out;
+        }
+            
+        &__secondary {
+            font-family: sansation light;  
+            font-weight: 100;
+              animation: moveInBottom 1.7s ease-out;
+        }  
+    }    
+  
+    &__sub{    
+        font-family: sansation;  
+        font-size: 2rem;   
+        display: inline-block;   
+        flex: 0 0 30%;    
+        text-align: center;
+        margin: 0 4rem 8.5rem 0;  
+        animation: moveInRight 1.7s ease-out;
+        @media only screen and(max-width: $bp-largest) {
+            font-size: 1.7rem;  
+        }  
+
+        @media only screen and(max-width:$bp-large-two){
+            font-size: 1.4rem;  
+            margin: 0 4rem 9rem 0; 
+        }
+
+        @media only screen and(max-width:$bp-medium2){
+            margin: 0 4rem 8rem 0;
+        }
+
+        @media only screen and(max-width:47.87em){
+            font-size: 1.2rem;  
+        }
+
+        @media only screen and(max-width: $bp-small){
+            margin: 2rem 2rem;  
+        }    
+
+    }  
+}
+
+.featured-work{  
+    &__container{
+        height: 100vh;
+        max-width: 100%;
+        position: relative;
+        background-image: radial-gradient(32.63% 30.63% at 50.03% 42.25%, #1b3e5d -55%, rgba(0, 0, 0, 0) 88%);
+        background-repeat: no-repeat; 
+        
+        @media only screen and(max-width: 25.88em) {
+            height: 81vh;
+        }
+        @media only screen and(max-width: 20em) {
+            height: 90vh;
+        }
+             
+    }   
+}
+
+.featured-work__container.portfolio-projects{
+    @media only screen and (max-width: 90.38em) {
+        height: 299vh;
+    }
+    @media only screen and (max-width: 68.12em) {
+        height: 299vh;
+    }
+    @media only screen and (max-width: 25.88em) {
+        height: 217vh;
+    }
+    @media only screen and (max-width: 23.44em) {
+        height: 174vh;
+    }
+    @media only screen and (max-width: 22.5em) {
+        height: 203vh;  
+    }
+    @media only screen and(max-width: 20em) {
+        height: 215vh;  
+    }
+}
+
+ .composition.portfolio-composition{
+         @media only screen and (max-width: 23.44em) {
+            height: 54vh; 
+    }
+
+         @media only screen and (max-width: 22.5em) {
+            height: 64vh; 
+    }
+
+ }  
+
+ .composition__photo.composition__photo--p2.portfolio-p2 {
+    @media only screen and (max-width: 64em) {
+        left: 30%;
+     }
+ 
+ }
+ 
+ .composition__photo.composition__photo--p2.portfolio-p1 {
+    @media only screen and (max-width: 64em) {
+        left: 4%;
+     }
+ 
+ }
+
+ .composition__portfolio--CTA.portfolio-btn {  
+     @media only screen and (max-width: 64em) {
+        top: 113%;
+     }  
+     @media only screen and (max-width: 32.56em) {
+        left: 60%;
+     }
+     
+     @media only screen and (max-width: 23.44em) {
+        top: 104%;
+     }  
+       
+ }
+   
+
+.heading.portfolio__heading {
+
+    @media only screen and (max-width: 64em) {
+        font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 21.31em) {
+        font-size: 1.2rem;
+    }
+}  
+
+.header__container.portfolio__page-header {
+       @media only screen and (max-width: 23.44em) {
+        height: 42vh;
+    }
+       @media only screen and (max-width: 22.5em) {
+        height: 56vh;
+    }
+}   
+
+

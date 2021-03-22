@@ -1,0 +1,70 @@
+:root{
+    --primary-color:#000000d8;
+    --secondary-color:#1B3E5D;
+    --tertiary-color: #5DF0FA;
+    --text-color:#E5E5E5;
+    --text-color2: #C4C4C4;
+    --icon-color:#f34242;
+    --dark-gray: #3A3C3C;
+    --box-shadow: 0 1.5rem 4rem black;
+    --alt-primary-color:#010508f2;
+}
+
+$bp-largest: 76.62em; //1226px
+$bp-large: 66.5em; //1064px
+$bp-large-two: 65.12em; //1042px
+$bp-medium: 47.12em; //754px
+$bp-medium2: 53.5em; //856px  
+$bp-small: 39.75em; //636px  
+  
+
+
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0; 
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+}
+
+
+@font-face {
+    font-family: sansation;
+	font-style: normal;
+	font-weight: normal;
+    src: local('Sansation'), url(../fonts/Sansation_Regular.woff) format('woff');
+    }
+        
+    
+@font-face {
+        font-family: sansation light;
+        font-style: normal;
+        font-weight: normal;
+        src: local('Sansation Light'), url(../fonts/Sansation_Light.woff) format('woff');
+        }
+        
+          
+    
+@font-face {
+        font-family: sansation big;
+        font-style: normal;
+        font-weight: normal;           
+        src: local('Sansation Bold'), url(../fonts/Sansation_Bold.woff) format('woff'); 
+        }
+
+    
+body {
+    font-family:sansation;  
+    line-height: 1.6;
+    font-weight: 400;  
+    background-color: var(--alt-primary-color);   
+    color: var(--text-color);   
+    
+}
+
