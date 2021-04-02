@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__container portfolio__page-header">
             <nav class="nav">
                 <div class="nav__icon-container">
@@ -59,7 +59,7 @@
                 <h1>projects overview</h1>
             </div>
 
-            <div class="composition portfolio-composition">
+            <div class="composition portfolio-composition section">
                 <img src="images/wa2.JPG " alt="photo1" class="composition__photo composition__photo--p1 portfolio-p1">
                 <img src="images/wa3.JPG " alt="photo2" class="composition__photo composition__photo--p2 portfolio-p2">
                 <img src="images/wa1.JPG" alt="photo3" class="composition__photo composition__photo--p3 portfolio-p3">
@@ -84,8 +84,57 @@
                 </div>
 
             </div>
+            <div class="composition portfolio-composition section">
+                <img src="images/bk2.JPG " alt="photo1" class="composition__photo composition__photo--p1 portfolio-p1">
+                <img src="images/bk3.JPG " alt="photo2" class="composition__photo composition__photo--p2 portfolio-p2">
+                <img src="images/bk1.JPG" alt="photo3" class="composition__photo composition__photo--p3 portfolio-p3">
+                <div class="composition__photo--project-description">
+                    <p class="composition__photo--project-description__text"><span
+                            class="composition__photo--project-description__text--heading">Bankist</span><br>A marketting website for a ficticious bank. Bankist was built using HTML, CSS(SASS) and finished with some nice functionalities using vanilla Javascript.
+                    </p>
+                </div>
+                <div class="composition__portfolio--CTA portfolio-btn">
+                    <a class="composition__portfolio--CTA__button" href="https://bankkist.netlify.app/"
+                        target="blank">
+                        app demo <svg class="composition__portfolio--CTA__arrow" width="59" height="16"
+                            viewBox="0 0 59 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M57.7295 8.70711C58.1201 8.31658 58.1201 7.68342 57.7295 7.29289L51.3656 0.928932C50.975 0.538408 50.3419 0.538408 49.9514 0.928932C49.5608 1.31946 49.5608 1.95262 49.9514 2.34315L55.6082 8L49.9514 13.6569C49.5608 14.0474 49.5608 14.6805 49.9514 15.0711C50.3419 15.4616 50.975 15.4616 51.3656 15.0711L57.7295 8.70711ZM0.982422 9H57.0224V7H0.982422V9Z"
+                                fill="#5DF0FA" />
+                        </svg>
+                    </a>
 
-            <div class="composition portfolio-composition">
+
+                </div>
+
+            </div>
+            <div class="composition portfolio-composition section">
+                <img src="images/nx2.JPG " alt="photo1" class="composition__photo composition__photo--p1 portfolio-p1">
+                <img src="images/nx3.JPG " alt="photo2" class="composition__photo composition__photo--p2 portfolio-p2">
+                <img src="images/nx1.JPG" alt="photo3" class="composition__photo composition__photo--p3 portfolio-p3">
+                <div class="composition__photo--project-description">
+                    <p class="composition__photo--project-description__text"><span
+                            class="composition__photo--project-description__text--heading">Nexter</span><br>Nexter is a landing page for a real estate website. It was built with HTML, CSS(SASS). I worked on this project was to hone in on my CSS grid skills.
+                    </p>
+                </div>
+                <div class="composition__portfolio--CTA portfolio-btn">
+                    <a class="composition__portfolio--CTA__button" href="https://nexxt.netlify.app/"
+                        target="blank">
+                        app demo <svg class="composition__portfolio--CTA__arrow" width="59" height="16"
+                            viewBox="0 0 59 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M57.7295 8.70711C58.1201 8.31658 58.1201 7.68342 57.7295 7.29289L51.3656 0.928932C50.975 0.538408 50.3419 0.538408 49.9514 0.928932C49.5608 1.31946 49.5608 1.95262 49.9514 2.34315L55.6082 8L49.9514 13.6569C49.5608 14.0474 49.5608 14.6805 49.9514 15.0711C50.3419 15.4616 50.975 15.4616 51.3656 15.0711L57.7295 8.70711ZM0.982422 9H57.0224V7H0.982422V9Z"
+                                fill="#5DF0FA" />
+                        </svg>
+                    </a>
+
+                    
+                </div>
+
+            </div>
+
+
+            <div class="composition portfolio-composition section">
                 <img src="images/ga2.JPG " alt="photo1" class="composition__photo composition__photo--p1 portfolio-p1">
                 <img src="images/ga3.JPG " alt="photo2" class="composition__photo composition__photo--p2 portfolio-p2">
                 <img src="images/ga1.JPG" alt="photo3" class="composition__photo composition__photo--p3 portfolio-p3">
@@ -112,7 +161,7 @@
 
             </div>
 
-            <div class="composition portfolio-composition">
+            <div class="composition portfolio-composition section">
                 <img src="images/photo3.JPG " alt="photo1"
                     class="composition__photo composition__photo--p1 portfolio-p1">
                 <img src="images/photo2.JPG " alt="photo2"
@@ -146,7 +195,7 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact section" id="contact">
         <div class="heading">
             <h1>contact</h1>
         </div>
@@ -202,7 +251,7 @@
                         </a></li>
                     <li class="footer__container--navigation__links--endpoint contact"><a class="footer-link"
                             href="contact.html">reach out</a></li>
-                    <li class="footer__container--navigation__links--endpoint home"><a class="footer-link" href="#">back
+                    <li class="footer__container--navigation__links--endpoint home"><a class="footer-link porfolio-scroll" href="#">back
                             to top</a></li>
                 </ul>
             </div>
@@ -234,5 +283,5 @@
     </footer>
 
 </body>
-
+    <script src="./script.js"></script>
 </html>

@@ -143,29 +143,26 @@ body {
     .featured-work__container {
       height: 90vh; } }
 
-@media only screen and (max-width: 90.38em) {
-  .featured-work__container.portfolio-projects {
-    height: 299vh; } }
-
-@media only screen and (max-width: 68.12em) {
-  .featured-work__container.portfolio-projects {
-    height: 299vh; } }
-
-@media only screen and (max-width: 25.88em) {
-  .featured-work__container.portfolio-projects {
-    height: 217vh; } }
-
-@media only screen and (max-width: 23.44em) {
-  .featured-work__container.portfolio-projects {
-    height: 174vh; } }
-
-@media only screen and (max-width: 22.5em) {
-  .featured-work__container.portfolio-projects {
-    height: 203vh; } }
-
-@media only screen and (max-width: 20em) {
-  .featured-work__container.portfolio-projects {
-    height: 215vh; } }
+.featured-work__container.portfolio-projects {
+  height: 500vh; }
+  @media only screen and (max-width: 90.38em) {
+    .featured-work__container.portfolio-projects {
+      height: 500vh; } }
+  @media only screen and (max-width: 68.06em) {
+    .featured-work__container.portfolio-projects {
+      height: 500vh; } }
+  @media only screen and (max-width: 25.88em) {
+    .featured-work__container.portfolio-projects {
+      height: 355vh; } }
+  @media only screen and (max-width: 23.44em) {
+    .featured-work__container.portfolio-projects {
+      height: 284vh; } }
+  @media only screen and (max-width: 22.5em) {
+    .featured-work__container.portfolio-projects {
+      height: 335vh; } }
+  @media only screen and (max-width: 20em) {
+    .featured-work__container.portfolio-projects {
+      height: 346vh; } }
 
 @media only screen and (max-width: 23.44em) {
   .composition.portfolio-composition {
@@ -183,6 +180,10 @@ body {
   .composition__photo.composition__photo--p2.portfolio-p1 {
     left: 4%; } }
 
+@media only screen and (max-width: 23.44em) {
+  .composition__photo.composition__photo--p2.portfolio-p1 {
+    left: 4%; } }
+
 @media only screen and (max-width: 64em) {
   .composition__portfolio--CTA.portfolio-btn {
     top: 113%; } }
@@ -190,6 +191,12 @@ body {
 @media only screen and (max-width: 32.56em) {
   .composition__portfolio--CTA.portfolio-btn {
     left: 60%; } }
+
+@media only screen and (max-height: 27.63em) {
+  .composition__portfolio--CTA.portfolio-btn {
+    left: 51%;
+    width: 2rem;
+    font-size: 1rem; } }
 
 @media only screen and (max-width: 23.44em) {
   .composition__portfolio--CTA.portfolio-btn {
@@ -268,6 +275,13 @@ body {
     .heading {
       font-size: 1.3rem; } }
 
+.section {
+  transition: transform 1s, opacity 1s; }
+
+.hide-section {
+  opacity: 0;
+  transform: translateY(8rem); }
+
 .composition {
   position: relative;
   height: 100vh; }
@@ -278,7 +292,7 @@ body {
     width: 30%;
     position: absolute;
     border-radius: 5px;
-    transition: all .5s;
+    transition: all 0.5s;
     box-shadow: var(--box-shadow); }
     @media only screen and (max-width: 64em) {
       .composition__photo {
@@ -447,7 +461,7 @@ body {
     font-family: sansation light;
     padding: 0 2rem 1rem 2rem;
     border-bottom: solid var(--tertiary-color);
-    transition: all .3s;
+    transition: all 0.3s;
     text-decoration: none;
     color: var(--text-color); }
     @media only screen and (max-width: 49.5em) {
@@ -575,7 +589,7 @@ body {
       position: relative;
       border-radius: 5px;
       background-color: var(--dark-gray);
-      transition: all .2s; }
+      transition: all 0.2s; }
       @media only screen and (max-width: 47.31em) {
         .contact__container--CTA__button {
           font-size: 1.5rem;
@@ -604,7 +618,7 @@ body {
         top: 0;
         left: 0;
         z-index: -1;
-        transition: all .2s; }
+        transition: all 0.2s; }
       .contact__container--CTA__button:hover::after {
         transform: scale(2);
         background-color: var(--tertiary-color);
@@ -792,13 +806,6 @@ body {
   100% {
     opacity: 0;
     pointer-events: none; } }
-
-@media only screen and (max-width: 22.56em) {
-  .rowler {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; } }
 
 .navigation {
   animation: moveInTop 5s ease-out; }
