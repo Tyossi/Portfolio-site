@@ -106,11 +106,11 @@ body {
       font-weight: 100;
       animation: moveInBottom 1.7s ease-out; }
   .text-box__sub {
-    font-family: sansation;
+    font-family: "Roboto";
     font-size: 2rem;
     display: inline-block;
     flex: 0 0 30%;
-    text-align: center;
+    text-align: justify;
     margin: 0 4rem 8.5rem 0;
     animation: moveInRight 1.7s ease-out; }
     @media only screen and (max-width: 76.62em) {
@@ -390,12 +390,12 @@ body {
       text-align: center;
       padding: 2rem 2rem;
       border-radius: 5px;
-      color: var(--tertiary-color);
+      color: #fff;
       background-color: var(--dark-gray);
       box-shadow: var(--box-shadow);
       width: 25%;
       position: absolute;
-      font-family: sansation;
+      font-family: "Roboto", sans-serif;
       top: 30%;
       left: 64%;
       font-size: 1.5rem;

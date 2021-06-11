@@ -84,11 +84,11 @@
   }
 
   &__sub {
-    font-family: sansation;
+    font-family: "Roboto";
     font-size: 2rem;
     display: inline-block;
     flex: 0 0 30%;
-    text-align: center;
+    text-align: justify;
     margin: 0 4rem 8.5rem 0;
     animation: moveInRight 1.7s ease-out;
     @media only screen and(max-width: $bp-largest) {
